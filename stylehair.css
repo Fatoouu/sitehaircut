@@ -7,7 +7,7 @@ html{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Antonio', sans-serif;
 }
 body{
     background-color: var(--black);
@@ -49,3 +49,19 @@ body{
     width: 100%;
     filter: brightness(30%);
 }
+/* Autre méthode pour mettre une opacité ou un filtre, c'est une méthode qui as plus de chance de fonctionner en fonction du background de la page
+/* .entete {
+    background-color: var(--black);
+}
+.entete .img {
+    opacity: .5;
+} */
+.entete .texte_entete{
+color: white;
+text-transform: uppercase;
+position: absolute;
+top: 40%;
+left: 30%;
+text-align: center;
+}
+
