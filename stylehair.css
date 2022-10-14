@@ -33,6 +33,7 @@ body{
 
 .img-100 {max-width: 87%;}
 .w-100 { width: 100%;}
+/* Fin paramètre */
 
 /* navbar */
 .navbar{
@@ -96,14 +97,13 @@ body{
     display: flex;
     gap: 2em;
 }
-
 .box-image{
     width: 100%;
     color: var(--white);
     position: relative;
 }
 .box-image .monimage{
-    
+    align-items: center;
 }
 .image_about{
     top: 80%;
@@ -151,6 +151,7 @@ body{
 
 .about_us {
     margin-top: 5rem;
+    padding: 9rem;
 }
 
 .about_us .image_about .monimage{
@@ -165,6 +166,9 @@ body{
     color: var(--red);
     font-size: 3rem;
     /* text-align: center; */
+}
+.textesurimage1{
+    padding: 2rem 3rem 2.5rem 1.5rem;
 }
 .about_us .image_about .textesurimage1{
     font-size: 3em;
