@@ -6,12 +6,28 @@ html{
     --bleu: #6d7293; 
 }
 
+@import url('https://fonts.googleapis.com/css2? family= Anton & display=swap');
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+.d-flex {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+.d-flex1 {
+    display: flex;
+    gap: 2.2rem;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+}
 .container {
     max-width: 80%;
     margin: 0 auto;
@@ -93,10 +109,6 @@ body{
     margin-top: 30px;
 }
 /* About_us */
-.d-flex{
-    display: flex;
-    gap: 2em;
-}
 .box-image{
     width: 100%;
     color: var(--white);
@@ -112,7 +124,6 @@ body{
     position: absolute;
     background-color: var(--darkgray);
 }
-
 .box-title_2 {
     margin-top: 3rem;
 }
@@ -191,5 +202,347 @@ body{
     color: var(--bleu);
 }
 
+/* Service */
+.mytitle { 
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mytitle span {
+    color: red;
+    background-color: var(--darkgray);
+    padding: .5em;
+    font-size: 1.2em;
+}
 
+.mytitle h3 {
+    margin-top: .5em;
+    padding: .5em;
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+}
 
+.service-ligne1 .colonne{
+    color: white;
+}
+
+.service {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.text-service {
+    text-align: center;
+}
+.service .text-service span{
+    background-color: var(--darkgray);
+    padding: 0.4em 1em;
+    font-size: 1.2em;
+    color: var(--red);
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.service .text-service h3 {
+    margin-top: .5em;
+}
+/* Service element */
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.service-element1 .myelement img{
+    background-color: var(--black);
+    padding: 1em;
+}
+.service-element1 .myelement{
+    background-color: var(--darkgray);
+    padding: 2em 2em 1em 0;
+    display: flex;
+}
+.bloc_myelement{
+    padding-bottom: 2rem;
+}
+.bloc_myelement2{
+    padding-bottom: 2rem;
+}
+.elm_titre{
+    color: var(--white);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.bloc_myelement .text-service .elm_texte{
+    color: var(--bleu);
+}
+.service-element1 .myelement h3{
+    text-align: left;
+    padding-left: .4em;
+}
+.service-element1 .myelement p{
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    color: var(--gray);
+}
+.service-element1 .myelement .price{
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    color: var(--red);
+    text-transform: uppercase;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.service-element2 .myelement img{
+    background-color: var(--black);
+    padding: 1em;
+}
+.service-element2 .myelement{
+    background-color: var(--darkgray);
+    padding: 2em 2em 1em 0;
+    display: flex;
+}
+.service-element2 .myelement h3{
+    text-align: left;
+    padding-left: .4em;
+}
+.service-element2 .myelement p{
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    color: var(--gray);
+}
+.service-element2 .myelement .price{
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    color: var(--red);
+    text-transform: uppercase;
+}
+/* Price plan */
+.price-plan .price-plan-text {
+    background-color: var(--darkgray);
+    padding: 2.2em;
+    width: 50%;
+}
+.price-plan .price-plan-img {
+    display: flex;
+    position: relative;
+}
+.price-plan-text .myprice {
+    color: var(--red);
+    font-size: 1.2em;
+}
+.price-plan-text .item {
+    font-family:'Antonio', sans-serif;
+    font-size: 1.5em;
+    color: var(--white);
+}
+.myprice_title{
+    background-color: var(--black);
+    font-size: 1.5rem;
+    width: 17%;
+    color: var(--red);
+    text-align: center;
+}
+.title_check{
+    color: var(--white);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.ligne{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.price-plan .price-plan-text .ligne {
+    padding-top: 1em;
+}
+.price-plan .price-plan-text .lastligne {
+    padding-bottom: 3.3em;
+}
+/* meet barber */
+.meetyourbarber {
+    display: flex;
+    gap: 1em;
+}
+.meetyourbarber .img-barber .img-100{
+    width: 100%;
+}
+.meetyourbarber .barber {
+    background-color: var(--darkgray);
+}
+.meetyourbarber .barber h5 {
+    color: var(--white);
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding: 1em;
+}
+.meetyourbarber .barber p {
+    color: var(--red);
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 1.2em;
+}
+.meetyourbarber .barber .barber4 {
+    position: relative;
+}
+.meetyourbarber .barber4 .fab {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    color: green;
+    transform: translate(-50%, -50%);
+}
+/* working hours */
+.price-plan-text .workingtitle {
+    color: var(--red);
+    font-size: 1.2em;
+    background-color: var(--black);
+    padding: 0.5em;
+    width: 30%;
+    text-align: center;
+}
+
+.title_pro{
+    text-transform: uppercase;
+    color: var(--white);
+}
+.myhour{
+    color: var(--bleu);
+}
+.price-plan{
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.workingtitle{
+    padding-bottom: 2em;
+}
+.working .price-plan-text {
+    background-color: var(--darkgray);
+    padding: 1.9em 4em;
+}
+.working .price-plan-text .ligne .myprice {
+    color: var(--gray);
+}
+.working .price-plan-text .ligne .lastday{
+    color: var(--red);
+}
+/* testimonial */
+.testimonial .titles {
+    text-align: center;
+}
+.testimonial .infos {
+    text-align: center;
+}
+.testimonial .infos p:last-child {
+    width: 50%;
+    margin: 0 auto;
+}
+.testimonial .infos .client-name {
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.testimonial .infos .profession {
+    color: var(--red);
+    font-size: 1.2em;
+}
+.testimonial .trois-images {
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 2em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+    gap: 0.7em;
+}
+.testimonial .trois-images img {
+    background-color: var(--darkgray);
+    padding: 1em;
+    width: 30%;
+    opacity: 30%;
+}
+.testimonial .trois-images img:last-child {
+    width: 100%;
+    opacity: 100%;
+}
+.pres{
+    color: var(--bleu);
+}
+/* footer */
+footer {
+    background-color: var(--darkgray);
+}
+footer .container .colonne p{
+    color: var(--gray);
+    padding: .3em;
+}
+footer .colonne h3 {
+    font-size: 1.8em;
+    padding-bottom: 1em;
+}
+.foot_titre{
+    text-transform: uppercase;
+    color: var(--white);
+}
+.foot_liste{
+    color: var(--bleu);
+}
+.foot_liste2{
+    color: var(--bleu);
+}
+footer .colonne .fa {
+    color: var(--red);
+    background-color: var(--black);
+    padding: .5em;
+}
+footer .colonne .fa-location-dot {
+    color: var(--red);
+    background-color: var(--black);
+    padding: .6em;
+}
+footer .colonne .mail {
+    background-color: var(--white);
+    padding: .3em;
+    width: 300px;
+}
+footer .colonne .mail .signup {
+    background-color: var(--red);
+    padding: .6em;
+    color: white;
+}
+footer .colonne .social-media {
+    justify-content: start;
+    gap: .5em;
+    padding-top: 1em;
+}
+footer .colonne{
+    padding-bottom: 2em;
+}
+footer .colonne .social-media .fab {
+    color: var(--red);
+    background-color: var(--black);
+    padding: 0.5em;
+}
+footer .copyright {
+    background-color: var(--black);
+    color: var(--gray);
+    padding: .7em;
+    align-items: flex-start;
+}
+footer .copyright p{
+    background-color: var(--black);
+    color: var(--bleu);
+    padding: 1em;
+    align-items: flex-start;
+}
